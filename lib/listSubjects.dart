@@ -19,11 +19,6 @@ class _ListSubjectsState extends State<ListSubjects> {
   void initState(){
     super.initState();
     cards.add(buildCard('T-shirt', '10'));
-    cards.add(buildCard('Веб базирани системи', 'Јовановиќ Милош'));
-    cards.add(buildCard('Напредна интеракција човек-компјутер', 'Ацковска Невена'));
-    cards.add(buildCard('Мобилни информациски ситеми', 'Ламески Петре'));
-    cards.add(buildCard('Менаџмент информациски ситеми', 'Велинов Горан'));
-    cards.add(buildCard('Тимски проект', 'Ламески Петре'));
   }
 
   Color myCustomColor2 = Color(0xFFFFFFFF);
